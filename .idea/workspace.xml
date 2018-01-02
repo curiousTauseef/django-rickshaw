@@ -2,28 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c05c0b70-0dcc-4289-a1cf-5a3acf78431c" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/rickshaw/errors.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/rickshaw/management/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/rickshaw/management/commands/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/rickshaw/management/commands/clear_empty_rickshaws.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/rickshaw/shared/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/rickshaw/shared/service.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/rickshaw/urls.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/cart.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/index.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change beforePath="$PROJECT_DIR$/django_rickshaw/settings.py" afterPath="$PROJECT_DIR$/django_rickshaw/settings.py" />
-      <change beforePath="$PROJECT_DIR$/django_rickshaw/urls.py" afterPath="$PROJECT_DIR$/django_rickshaw/urls.py" />
-      <change beforePath="$PROJECT_DIR$/rickshaw/admin.py" afterPath="$PROJECT_DIR$/rickshaw/admin.py" />
-      <change beforePath="$PROJECT_DIR$/rickshaw/models.py" afterPath="$PROJECT_DIR$/rickshaw/models.py" />
-      <change beforePath="$PROJECT_DIR$/rickshaw/rickshaw/__init__.py" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/rickshaw/rickshaw/rickshaw.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/rickshaw/signals.py" afterPath="$PROJECT_DIR$/rickshaw/signals.py" />
-      <change beforePath="$PROJECT_DIR$/rickshaw/tasks.py" afterPath="$PROJECT_DIR$/rickshaw/tasks.py" />
-      <change beforePath="$PROJECT_DIR$/rickshaw/tests.py" afterPath="$PROJECT_DIR$/rickshaw/tests.py" />
-      <change beforePath="$PROJECT_DIR$/rickshaw_example/views.py" afterPath="$PROJECT_DIR$/rickshaw_example/views.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -59,8 +38,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="736">
-                <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+              <first_editor relative-caret-position="115">
+                <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -145,11 +124,6 @@
             </path>
             <path>
               <item name="django_rickshaw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="django_rickshaw" type="462c0819:PsiDirectoryNode" />
-              <item name="rickshaw" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="django_rickshaw" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -218,15 +192,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="23" width="1280" height="1362" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46826223" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2533973" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24324325" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2533973" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24271844" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -506,7 +479,7 @@
         <state relative-caret-position="345">
           <caret line="91" column="95" lean-forward="false" selection-start-line="91" selection-start-column="95" selection-end-line="91" selection-end-column="95" />
           <folding>
-            <element signature="e#0#67#0" expanded="true" />
+            <element signature="e#0#67#0" expanded="false" />
             <element signature="e#410#2810#0" expanded="false" />
           </folding>
         </state>
@@ -525,7 +498,7 @@
         <state relative-caret-position="412">
           <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="31" selection-end-column="28" />
           <folding>
-            <element signature="e#0#43#0" expanded="true" />
+            <element signature="e#0#43#0" expanded="false" />
             <element signature="e#1251#1390#0" expanded="false" />
             <element signature="e#2625#2795#0" expanded="false" />
           </folding>
@@ -554,8 +527,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="736">
-            <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <first_editor relative-caret-position="115">
+            <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
