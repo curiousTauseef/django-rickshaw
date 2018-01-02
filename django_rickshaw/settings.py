@@ -125,6 +125,7 @@ STATIC_URL = '/static/'
 
 AUTH_USER_MODEL = 'rickshaw_example.RickshawExampleUser'
 
+SESSION_SAVE_EVERY_REQUEST = True
 
 RICKSHAW_PRODUCT_MODEL = "rickshaw_example.Product"
 RICKSHAW_USER_MODEL = AUTH_USER_MODEL

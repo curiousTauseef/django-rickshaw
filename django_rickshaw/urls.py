@@ -15,7 +15,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from rickshaw_example.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('app/', app),
+    path('app/add-to-cart/', addtocart)
 ]

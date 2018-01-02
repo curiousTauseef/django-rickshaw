@@ -18,7 +18,8 @@ class CargoHold(models.Manager):
 
 class Rickshaw(models.Model):
     uuid = models.UUIDField(verbose_name=_('UUID'), unique=True, default=uuid4, editable=False)
-    driver = models.ForeignKey(settings.RICKSHAW_USER_MODEL, on_delete=models.CASCADE, to_field="id", verbose_name=_('Driver'))
+    driver = models.ForeignKey(settings.RICKSHAW_USER_MODEL, on_delete=models.CASCADE, to_field="id", blank=True, null=True, verbose_name=_('Driver'))
+    session = models.CharField(max_length=2000, blank=True, null=True, unique=True)
     paid = models.BooleanField(default=False, verbose_name=_('Paid'))
     saved = models.BooleanField(default=False, verbose_name=_('Saved'))
     created_at = models.DateTimeField(auto_now_add=True, verbose_name=_('Created At'))
@@ -26,12 +27,8 @@ class Rickshaw(models.Model):
 
     wheels = Wheels()
 
-    def save_for_later(self):
-        self.saved = True
-        self.save()
-
-    def clear_cargo(self):
-        return Cargo.hold.filter(rickshaw=self).delete()
+    def __str__(self):
+        return self.uuid.__str__()
 
     class Meta:
         db_table = "rickshaw_rickshaw_table"
