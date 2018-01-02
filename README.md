@@ -13,7 +13,7 @@ Rickshaw is a handy shopping cart experience for the Django framework **(2.0 onl
 - Custom configuration via settings.py
 
 ## Installation
-***Coming Soon :sweat_smile:***
+***Coming Soon*** :sweat_smile:
 
 ## Overview
 
@@ -30,6 +30,6 @@ Either through CRON or Celery the user is notified so long as they have made an 
 Using the wrapper class, you can configure the rickshaw depending on the outcome from your payment provider.
 
 ## Instructions
-***Coming Soon :sweat_smile:***
+***Coming Soon*** :sweat_smile:
 
  
